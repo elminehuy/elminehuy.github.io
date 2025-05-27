@@ -160,7 +160,52 @@
       	display: block;
       	margin: 0 auto;
     }
-</style> 
+</style>
+<style>
+	.tweet {
+  		max-width: 500px;
+  		border: 1px solid #e1e8ed;
+		border-radius: 16px;
+		padding: 16px;
+		font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, NotoSans;
+		background-color: white;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+	}
+
+	.tweet-header {
+		display: flex;
+		align-items: center;
+		margin-bottom: 12px;
+	}
+
+	.avatar {
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		margin-right: 12px;
+	}
+
+	.handle {
+  		color: #657786;
+  		font-size: 14px;
+  		margin-left: 4px;
+	}
+
+	.tweet-content {
+		font-size: 16px;
+		line-height: 1.4;
+		margin-bottom: 12px;
+	}
+
+	.hashtag {
+		color: #1DA1F2;
+	}
+
+	.tweet-footer {
+		font-size: 14px;
+		color: #657786;
+	}
+</style>
 <style>
 	a {
 		color: #1D9BF0;
@@ -194,6 +239,22 @@
      data-height="600">
      Tweets by elminehuy
   </a>
+</div>
+<div class="tweet">
+	<div class="tweet-header">
+		<img class="avatar" src="https://pbs.twimg.com/profile_images/1644395251187759105/JI8iOfA-_400x400.jpg" alt="Avatar">
+		<div>
+		<strong>Elminehuy</strong> <span class="handle">@elminehuy</span>
+		</div>
+	</div>
+	<div class="tweet-content">
+		I <span class="hashtag">#LoveProgramming</span>
+	</div>
+	<div class="tweet-footer">
+		<span>10:24 AM · May 26, 2025</span>
+		<span>·</span>
+		<span>100 Views</span>
+	</div>
 </div>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>

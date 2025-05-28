@@ -31,3 +31,8 @@
 
 
 <img src="images/TwitterLogo.svg" class="tweet-icon" alt="Twitter Logo">
+
+
+<div style="position: absolute; top: 20px; right: 20px; width: 380px; height: 900px; overflow: hidden">
+	<blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/PH1r36UkL3">pic.twitter.com/PH1r36UkL3</a></p>&mdash; El Minehuy (@elminehuy) <a href="https://twitter.com/elminehuy/status/1710395412354326769?ref_src=twsrc%5Etfw">October 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>

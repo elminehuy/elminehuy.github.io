@@ -217,10 +217,23 @@
   		margin-left: 1rem;
   		cursor: default;
 	}
-	.blog-tweet {
-  		display: flex;
-  		justify-content: center;
-  		margin-top: 2rem; /* espacio debajo de lo anterior */
+	.tweet-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 3rem; /* asegúrate de que haya separación */
+		padding: 0 1rem;
+		box-sizing: border-box;
+	}
+
+	.tweet-post {
+		width: 100%;
+		max-width: 600px;
+		padding: 1rem;
+		border: 1px solid #ccc;
+		border-radius: 12px;
+		background-color: #fff;
+		box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 	}
 </style>
 <style>
@@ -262,24 +275,26 @@
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<div class="tweet">
-	<div class="tweet-header">
-		<img src="https://pbs.twimg.com/profile_images/1922975558993895424/RYqbTrbw_400x400.jpg" alt="Avatar" class="avatar">
-		<div class="tweet-user">
-			<strong>El Minehuy</strong><br>
-			<span>@elminehuy</span>
+<div class="tweet-wrapper">
+	<div class="tweet-post">
+		<div class="tweet-header">
+			<img src="https://pbs.twimg.com/profile_images/1922975558993895424/RYqbTrbw_400x400.jpg" alt="Avatar" class="avatar">
+			<div class="tweet-user">
+				<strong>El Minehuy</strong><br>
+				<span>@elminehuy</span>
+			</div>
+			<img src="TwitterLogo.svg" class="tweet-icon" alt="Twitter Logo">
 		</div>
-		<img src="TwitterLogo.svg" class="tweet-icon" alt="Twitter Logo">
-	</div>
-  	<div class="tweet-content">
-    	<p>Speak the truth, even if your voice shakes.</p>
-  	</div>
-	<div class="tweet-footer">
-		<span>14:44 · 21 jul 2020</span>
-		<div class="tweet-actions">
-			<span>💬</span>
-			<span>🔁</span>
-			<span>❤️</span>
+		<div class="tweet-content">
+			<p>Speak the truth, even if your voice shakes.</p>
+		</div>
+		<div class="tweet-footer">
+			<span>14:44 · 21 jul 2020</span>
+			<div class="tweet-actions">
+				<span>💬</span>
+				<span>🔁</span>
+				<span>❤️</span>
+			</div>
 		</div>
 	</div>
 </div>

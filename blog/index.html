@@ -301,10 +301,12 @@
 <p id="test-emoji">😎🚀🧱</p>
 <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 <script>
-  	twemoji.parse(document.getElementById("test-emoji"), {
-		folder: 'svg',
-		ext: '.svg'
-  	});
+	document.addEventListener("DOMContentLoaded", function () {
+		twemoji.parse(document.body, {
+			folder: 'svg',
+			ext: '.svg'
+		});
+	});
 </script>
 
 </body>

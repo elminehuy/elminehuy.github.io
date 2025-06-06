@@ -308,16 +308,14 @@
 </div>
 
 <p id="test-emoji">😎🚀🧱</p>
-<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/twemoji@latest/twemoji.min.js" crossorigin="anonymous"></script>
 <script>
-    window.onload = function() {    
-        // Parses the document body and    
-        // inserts <img> tags in place of Unicode Emojis    
-        twemoji.parse(document.body, 
-            {folder: 'svg', ext: '.svg'} // This is to specify to Twemoji to use SVGs and not PNGs
-        );
-
-    }
+  	document.addEventListener("DOMContentLoaded", function () {
+    	twemoji.parse(document.body, {
+      		folder: "svg",
+      		ext: ".svg"
+    	});
+  	});
 </script>
 
 </body>

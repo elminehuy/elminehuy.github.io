@@ -64,3 +64,16 @@
 		</div>
 	</div>
 </div>
+
+<!-- timeline: -->
+
+<div style="max-width: 350px; width: 100%; height: 600px; position: absolute; top: 20px; left: 20px;">
+  <a class="twitter-timeline"
+     href="https://twitter.com/elminehuy?ref_src=twsrc%5Etfw"
+     data-width="100%" 
+     data-height="300">
+     Tweets by elminehuy
+  </a>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

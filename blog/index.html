@@ -269,23 +269,13 @@
 
 </style>
 <style>
-	.typewriter {
-		overflow: hidden;
-		white-space: nowrap;
+	.word {
+		opacity: 0;
+		transition: opacity 0.3s ease;
 		display: inline-block;
-		border-right: 2px solid #ffffff;
-		animation: typing 4s steps(50, end), blink 0.75s step-end infinite;
-		font-size: 1.2rem;
 	}
-
-	@keyframes typing {
-		from { width: 0; }
-		to { width: 100%; }
-	}
-
-	@keyframes blink {
-		0%, 100% { border-color: transparent; }
-		50% { border-color: #ffffff; }
+	.word.visible {
+		opacity: 1;
 	}
 </style>
 <style>
@@ -359,6 +349,30 @@
     	});
   	});
 </script>
+<script>
+	const el = document.getElementById("animated-post");
+	const text = el.textContent;
+	const words = text.split(" ");
+	el.textContent = ""; // limpiamos
+
+	// Creamos un span por cada palabra
+	words.forEach(word => {
+		const span = document.createElement("span");
+		span.className = "word";
+		span.textContent = word + " ";
+		el.appendChild(span);
+	});
+
+	// Mostramos palabra por palabra
+	const spans = el.querySelectorAll(".word");
+	let i = 0;
+	const reveal = setInterval(() => {
+		spans[i].classList.add("visible");
+		i++;
+		if (i >= spans.length) clearInterval(reveal);
+	}, 250); // velocidad: 1 palabra cada 250ms (ajustable)
+</script>
+
 
 </body>
 </html>

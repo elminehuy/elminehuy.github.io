@@ -269,16 +269,6 @@
 
 </style>
 <style>
-	.word {
-		opacity: 0;
-		transition: opacity 0.3s ease;
-		display: inline-block;
-	}
-	.word.visible {
-		opacity: 1;
-	}
-</style>
-<style>
 	a {
 		color: #1D9BF0;
 		text-decoration: none;
@@ -315,7 +305,7 @@
 			<!-- aqui va el logo de twitter -->
 		</div>
 		<div class="tweet-content">
-			<p class="animated-post">Bueno, primer post del blog, bienvenidos si sois nuevos! <br> Sinceramente no se que poner hoy aqui xd, pero estoy seguro de que ya se me ocurriran cosas en el futuro, de momento solo quiero anunciar que estare trabajando en proximos videos para mi canal, seguire con el arte 2D y mis renders de Minecraft, que por supuesto podeis ver en mi Twitter <a class="hashtag" href="https://twitter.com/elminehuy">@elminehuy</a>, seguidme ahi para mas! Chao <br><p class="hashtag"><b>#Blog #Post #LoveTwitter</b></p></p>
+			<p>Bueno, primer post del blog, bienvenidos si sois nuevos! <br> Sinceramente no se que poner hoy aqui xd, pero estoy seguro de que ya se me ocurriran cosas en el futuro, de momento solo quiero anunciar que estare trabajando en proximos videos para mi canal, seguire con el arte 2D y mis renders de Minecraft, que por supuesto podeis ver en mi Twitter <a class="hashtag" href="https://twitter.com/elminehuy">@elminehuy</a>, seguidme ahi para mas! Chao <br><p class="hashtag"><b>#Blog #Post #LoveTwitter</b></p></p>
 			<img src="PostImages/BlogPost1.png" style="width: 100%;">
 		</div>
 		<div class="tweet-footer">
@@ -348,29 +338,6 @@
       		ext: ".svg"
     	});
   	});
-</script>
-<script>
-	const el = document.getElementById("animated-post");
-	const text = el.textContent;
-	const words = text.split(" ");
-	el.textContent = ""; // limpiamos
-
-	// Creamos un span por cada palabra
-	words.forEach(word => {
-		const span = document.createElement("span");
-		span.className = "word";
-		span.textContent = word + " ";
-		el.appendChild(span);
-	});
-
-	// Mostramos palabra por palabra
-	const spans = el.querySelectorAll(".word");
-	let i = 0;
-	const reveal = setInterval(() => {
-		spans[i].classList.add("visible");
-		i++;
-		if (i >= spans.length) clearInterval(reveal);
-	}, 250); // velocidad: 1 palabra cada 250ms (ajustable)
 </script>
 
 

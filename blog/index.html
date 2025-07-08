@@ -275,8 +275,68 @@
 		-ms-user-select: none;     /* IE/Edge */
 		user-select: none;         /* Estándar */
 	}
-
 </style>
+
+<style>
+	.social-icons {
+		position: fixed;
+		top: 20px;
+		left: 20px; /* o usa right: 20px si prefieres la otra esquina */
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		background: rgba(255, 255, 255, 0.9);
+		padding: 10px 15px;
+		border-radius: 10px;
+		box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+		z-index: 999;
+		font-family: sans-serif;
+	}
+
+	.social-icons a {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		color: #333;
+		font-size: 14px;
+		transition: transform 0.3s ease, color 0.3s ease;
+	}
+	
+	.icon-link {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		color: #333;
+		text-decoration: none;
+		transition: color 0.3s ease;
+		position: relative;
+	}
+
+	.icon-link:hover {
+		color: #1D9BF0;
+	}
+
+	.icon {
+		width: 20px;
+		height: 20px;
+		transition: transform 0.3s ease;
+	}
+
+	.icon.hover {
+		position: absolute;
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.icon-link:hover .normal {
+		opacity: 0;
+	}
+
+	.icon-link:hover .hover {
+		opacity: 1;
+	}
+</style>
+
 <style>
 	a {
 		color: #1D9BF0;
@@ -299,6 +359,24 @@
 </header>
 <div class="container">
     <h4 class="has-text-align-center"><a href="https://elminehuy.github.io/" target="_self" rel="home">Volver a Inicio</a></h4>
+</div>
+
+<div class="social-icons">
+	<a href="https://twitter.com/elminehuy" target="_blank" class="icon-link">
+		<img src="Icons/TwitterIcon.svg" alt="Twitter" class="icon">
+		<img src="Icons/TwitterIconCircle.svg" alt="Twitter" class="iconhover">
+		@elminehuy
+	</a>
+	<a href="https://youtube.com/elminehuy" target="_blank" class="icon-link">
+		<img src="Icons/YouTubeIcon.svg" alt="YouTube" class="icon">
+		<img src="Icons/YouTubeIconCircle.svg" alt="Twitter" class="iconhover">
+		@elminehuy
+	</a>
+	<a href="https://linktr.ee/elminehuy" target="_blank" class="icon-link">
+		<img src="Icons/LinktreeIcon.svg" alt="Linktree" class="icon">
+		<img src="Icons/LinktreeIconCircle.svg" alt="Linktree" class="iconhover">
+		@elminehuy
+	</a>
 </div>
 
 <!-- Aqui iria la timeline de twitter -->

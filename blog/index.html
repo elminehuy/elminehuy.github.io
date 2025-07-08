@@ -279,61 +279,38 @@
 
 <style>
 	.social-icons {
-		top: 20px;
-		left: 20px; /* o usa right: 20px si prefieres la otra esquina */
-		width: 40px;
-  		height: 40px;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		padding: 10px 15px;
-		border-radius: 10px;
-		box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-		z-index: 999;
+		position: fixed;
+		top: 20px; left: 20px;
+		display: flex; flex-direction: column;
+		gap: 10px; background: rgba(255,255,255,0.9);
+		padding: 10px; border-radius: 10px;
 	}
 
-	.social-icons a {
-		display: flex;
-		align-items: center;
-		text-decoration: none;
-		color: #333;
-		font-size: 14px;
-		transition: transform 0.3s ease, color 0.3s ease;
-
 	.icon-link {
+		position: relative;
 		display: flex;
 		align-items: center;
 		gap: 8px;
-		color: #333;
-		text-decoration: none;
-		transition: color 0.3s ease;
-		position: relative;
-	}
-
-	.icon-link:hover {
-		color: #1D9BF0;
 	}
 
 	.icon {
-		width: 40px;
-		height: 40px;
-		transition: transform 0.3s ease;
+		width: 80px; height: 80px;
+		transition: transform 0.3s ease, opacity 0.3s ease;
 	}
 
 	.iconhover {
 		position: absolute;
 		opacity: 0;
-		pointer-events: none;
-		width: 40px;
-		height: 40px;
 	}
 
 	.icon-link:hover .normal {
 		opacity: 0;
 	}
-
 	.icon-link:hover .hover {
 		opacity: 1;
+	}
+	.icon-link:hover {
+		transform: scale(1.05);
 	}
 </style>
 

@@ -56,3 +56,10 @@ THIS: src: url('fonts/NotoSans-Regular.woff') format('woff');
 		</div>
 	</div>
 </div>
+
+<!--sustituido por br-->
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer">
+</div>
+
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer">
+</div>

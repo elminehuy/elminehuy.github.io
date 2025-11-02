@@ -337,13 +337,13 @@
 		justify-content: space-between;
 		align-items: center; /* centra verticalmente los elementos */
 	}
-	header img {
+	.left {
   		height: 40px; /* tamaño de la imagen (ajusta a tu gusto) */
 		width: 40px;  /* cuadrada */
 		padding: 11.500px 11.500px;
 		object-fit: cover; /* mantiene la proporción sin deformar */
 	}
-	img span {
+	.left img {
   		height: 40px; /* tamaño de la imagen (ajusta a tu gusto) */
 		width: 40px;  /* cuadrada */
 		padding: 11.500px 11.500px;
@@ -363,9 +363,10 @@
 <body>
 
 <header>
-	<img src="images/NewFavicon.png" alt="favicon" class="alignleft aligncenter">
+	<div class="left">
+		<img src="images/NewFavicon.png" alt="favicon" class="alignleft aligncenter">
 		<span>ElMinehuy</span>
-	</img>
+	</div>
 	<span><p> Español 🇪🇸 | Ingles 🇬🇧 </p></span>
 </header>
 

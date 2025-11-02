@@ -1,5 +1,5 @@
 # elminehuy.github.io
-The ElMinehuy’s Website File Storage
+The ElMinehuy’s Website
 Made by (twitter) @elminehuy & @zeromrja
 Proudly Powered by The Mighty GitHub!
 EMinehuy's Website 2020-2025

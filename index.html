@@ -407,14 +407,14 @@
 </style>
 
 <style>
-.button-link {
+.icon-button {
 	position: relative;
-	width: 64px; /*  ajusta al tamaño que quieras */
-	height: 64px; /*  las dos imágenes deben tener igual tamaño */
+	width: 200px; /*  ajusta al tamaño que quieras */
+	height: 200px; /*  las dos imágenes deben tener igual tamaño */
 	overflow: hidden;
 }
 
-.button-link img {
+.icon-button img {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -425,17 +425,17 @@
 }
 
 /* la segunda imagen empieza invisible */
-.button-link img:last-child {
+.icon-button img:last-child {
 	opacity: 0;
 }
 
 /* al pasar el mouse, se muestra la segunda y oculta la primera */
-.button-link:hover img:last-child {
+.icon-button:hover img:last-child {
 	opacity: 1;
 }
 
-.button-link:hover img:first-child {
-	opacity: 0;
+.icon-button:hover img:first-child {
+  	opacity: 0;
 }
 </style>
 

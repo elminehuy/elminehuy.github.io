@@ -408,34 +408,34 @@
 
 <style>
 .button-link {
-  position: relative;
-  width: 64px; /*  ajusta al tamaño que quieras */
-  height: 64px; /*  las dos imágenes deben tener igual tamaño */
-  overflow: hidden;
+	position: relative;
+	width: 64px; /*  ajusta al tamaño que quieras */
+	height: 64px; /*  las dos imágenes deben tener igual tamaño */
+	overflow: hidden;
 }
 
 .button-link img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* asegura que no se deforme */
-  transition: opacity 0.4s ease-in-out; /*  transición suave */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* asegura que no se deforme */
+	transition: opacity 0.4s ease-in-out; /*  transición suave */
 }
 
 /* la segunda imagen empieza invisible */
 .button-link img:last-child {
-  opacity: 0;
+	opacity: 0;
 }
 
 /* al pasar el mouse, se muestra la segunda y oculta la primera */
 .button-link:hover img:last-child {
-  opacity: 1;
+	opacity: 1;
 }
 
 .button-link:hover img:first-child {
-  opacity: 0;
+	opacity: 0;
 }
 </style>
 

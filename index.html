@@ -406,6 +406,34 @@
 	}
 </style>
 
+<style>
+	.icon-link {
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		font-size: 20px; /* Puedes ajustar a 18px o más si lo deseas */
+	}
+
+	.icon {
+		width: 80px; height: 80px;
+		transition: transform 0.3s ease, opacity 0.3s ease;
+	}
+
+	.icon.hover {
+		position: absolute;
+		opacity: 0;
+	}
+
+	.icon-link:hover .normal {
+		opacity: 0;
+	}
+
+	.icon-link:hover .hover {
+		opacity: 1;
+	}
+</style>
+
 </head>
 
 <!--aqui acaba el Head de la web-->
@@ -472,14 +500,17 @@
 			<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h3 style="text-transform:uppercase;" class="wp-block-site-title has-regular-font-size"><a href="https://elminehuy.github.io/legal" target="_self" rel="home" aria-current="page"><strong>La Web de ElMinehuy</strong></a></h3>
 				<p class="wp-block-site-tagline has-small-font-size">La Web De ElMinehuy, <br> mi rincon en la World Wide Web</p>
 				<div class="social">
-					<a href="https://twitter.com/elminehuy" target="_blank" style="text-decoration: none;">
-						<img src="icons/twitter.png" width="64" height="64" alt="Twitter">
+					<a href="https://twitter.com/elminehuy" target="_blank" style="text-decoration: none;" class="icon-link">
+						<img src="icons/twitter.png" width="64" height="64" alt="Twitter" class="icon normal">
+						<img src="icons/twitteron.png" width="64" height="64" alt="Twitter" class="icon hover">
 					</a>
-					<a href="https://youtube.com/@elminehuy" target="_blank" style="text-decoration: none;">
-						<img src="icons/youtube.png" width="64" height="64" alt="YouTube">
+					<a href="https://youtube.com/@elminehuy" target="_blank" style="text-decoration: none;" class="icon-link">
+						<img src="icons/youtube.png" width="64" height="64" alt="YouTube" class="icon normal">
+						<img src="icons/youtubeon.png" width="64" height="64" alt="YouTube" class="icon hover">
 					</a>
-					<a href="https://linktr.ee/elminehuy" target="_blank" style="text-decoration: none;">
-						<img src="icons/linktree.png" width="64" height="64" alt="Linktree">
+					<a href="https://linktr.ee/elminehuy" target="_blank" style="text-decoration: none;" class="icon-link">
+						<img src="icons/linktree.png" width="64" height="64" alt="Linktree" class="icon normal">
+						<img src="icons/linktreeon.png" width="64" height="64" alt="Linktree" class="icon hover">
 					</a>
 				</div>
 			</div>

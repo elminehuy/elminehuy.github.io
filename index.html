@@ -551,6 +551,21 @@
 
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 
+<script>
+	const player = new Plyr('#player', {
+		controls: [
+		'play-large', // botón central
+		'play',
+		'progress',
+		'current-time',
+		'mute',
+		'volume',
+		'fullscreen'
+		],
+		ratio: '16:9', // formato de video
+	});
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@16.0.1/dist/twemoji.min.js" integrity="sha384-ffx6atwP+2a1uHhw+XT6uAGhdssJviyWfbhOgvzJqE1X+qUM1Aq3mS3WW70vSq6S"crossorigin="anonymous"></script>
 <script>
   	document.addEventListener("DOMContentLoaded", function () {

@@ -1,5 +1,4 @@
-# elminehuy.github.io
-La Web de ElMinehuy
+# elminehuy.github.io | La Web de ElMinehuy
 <br>
 Made by (twitter) @elminehuy & @zeromrja,
 proudly hosted by  GitHub!

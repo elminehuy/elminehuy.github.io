@@ -457,6 +457,24 @@
 	}
 </style>
 
+<style>
+	.boton-link {
+		display: inline-block;         /* lo hace parecer botón */
+		background-color: #6bc34d;     /* 🔹 color del botón (puedes cambiarlo) */
+		color: white;                  /* color del texto */
+		padding: 10px 20px;            /* tamaño del botón */
+		border: none;                  /* sin borde por defecto */
+		border-radius: 0px;            /* esquinas redondeadas */
+		text-decoration: none;         /* quita el subrayado */
+	}
+
+	/* Efecto al pasar el mouse */
+	.boton-link:hover {
+		background-color: #286519;     /* tono más oscuro */
+		transform: translateY(-2px);   /* pequeño “salto” */
+	}
+</style>
+
 <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 
 </head>
@@ -506,7 +524,7 @@
 		</div>
 	</div>
 
-	<h1 class="has-text-align-center" style="text-transform:uppercase"><a href="https://www.deviantart.com/elminehuy" target="_blank" rel="home">Accede a mi Portfolio Artistico</a></h1>
+	<h1 class="has-text-align-center" style="text-transform:uppercase boton-link"><a href="https://www.deviantart.com/elminehuy" target="_blank" rel="home">Accede a mi Portfolio Artistico</a></h1>
 	<h2 class="has-text-align-center" style="text-transform:uppercase"><a href="https://elminehuy.github.io/blog" target="_self" rel="home">Accede a mi Blog</a></h2>
 
 	<p></p>

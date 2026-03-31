@@ -23,7 +23,7 @@
 
 body {
     background-color: #15202b;
-    font-family: 'NotoSans', sans-serif;
+    font-family: 'PublicSans', sans-serif;
 	src: url('font/PublicSans-Regular.woff') format('woff');
 }
 
@@ -32,5 +32,5 @@ p {
     text-align: center;
     font-family: 'PublicSans';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.5rem;
 }

@@ -32,26 +32,27 @@ p {
     text-align: center;
     font-family: 'PublicSans';
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
 }
 h1 {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftTen';
-    font-weight: 400;
-    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 64px;
 }
 h2 {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftFive';
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 h3 {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftFive';
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }

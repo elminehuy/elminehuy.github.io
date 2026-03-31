@@ -1,4 +1,40 @@
+@font-face {
+  		font-family: 'MinecraftFive';
+  		src: url('fonts/MinecraftFivev2-Regular.woff') format('woff');
+}
+@font-face {
+  		font-family: 'MinecraftSeven';
+  		src: url('fonts/MinecraftSeven.woff') format('woff');
+}
+@font-face {
+  		font-family: 'MinecraftTen';
+  		src: url('fonts/MinecraftTenv2-Regular.woff') format('woff');
+}
+@font-face {
+		font-family: 'NotoSans';
+		src: url('fonts/NotoSans-Regular.woff') format('woff');
+}
+@font-face {
+		font-family: 'PublicSans';
+		src: url('fonts/PublicSans-Regular.woff') format('woff');
+		font-style: normal;
+}
+@font-face {
+		font-family: 'PublicSans';
+		src: url('fonts/PublicSans-Italic.woff') format('woff');
+		font-style: italic;
+}
+
+body {
+    background-color: #15202b;
+    font-family: 'NotoSans', sans-serif;
+	src: url('font/PublicSans-Regular.woff') format('woff');
+}
+
 p {
-    color: #c73030;
+    color: #ffffff;
     text-align: center;
+    font-family: 'PublicSans';
+    font-weight: 400;
+    font-size: 16px;
 }

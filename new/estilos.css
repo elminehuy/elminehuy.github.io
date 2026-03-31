@@ -34,7 +34,7 @@ p {
     font-weight: 400;
     font-size: 1.15rem;
 }
-h1 {
+.titulo {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftTen';
@@ -42,14 +42,14 @@ h1 {
     font-weight: 400;
     font-size: 2rem;
 }
-h2 {
+.sub1 {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftFive';
     font-weight: 400;
     font-size: 2.3rem;
 }
-h3 {
+.sub2 {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftFive';

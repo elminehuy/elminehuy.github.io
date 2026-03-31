@@ -6,7 +6,9 @@ header {
 	justify-content: space-between;
 	align-items: center;
     align-content: center;
-    object-fit: cover;
+}
+header span {
+	object-fit: cover;
 }
 
 @font-face {

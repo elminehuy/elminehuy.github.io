@@ -12,10 +12,6 @@
 }
 @font-face {
 		font-family: 'PublicSans';
-		src: url('fonts/NotoSans-Regular.woff') format('woff');
-}
-@font-face {
-		font-family: 'PublicSans';
 		src: url('fonts/PublicSans-Regular.woff') format('woff');
 		font-style: normal;
 }

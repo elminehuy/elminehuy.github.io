@@ -35,7 +35,10 @@ p {
     font-size: 1.15rem;
     margin-top: 16px;
     margin-bottom: 16px;
-    
+    margin-left: 5rem;
+    margin-right: 5rem;
+    line-height: 25px;
+
 }
 h1 {
     color: #ffffff;

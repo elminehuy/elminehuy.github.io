@@ -76,3 +76,15 @@ h3 {
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
+.link {
+	color: #1d9bf0;
+	text-decoration: none;
+}
+.link:hover {
+	color: #4aaff3;
+	text-decoration: underline;
+}
+.link:active {
+	color: #0063be;
+}

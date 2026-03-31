@@ -34,22 +34,22 @@ p {
     font-weight: 400;
     font-size: 1.15rem;
 }
-.titulo {
+h1 {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftTen';
     letter-spacing: 2px;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
-.sub1 {
+h2 {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftFive';
     font-weight: 400;
     font-size: 2.3rem;
 }
-.sub2 {
+h3 {
     color: #ffffff;
     text-align: center;
     font-family: 'MinecraftFive';

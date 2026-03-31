@@ -1,23 +1,23 @@
 @font-face {
   		font-family: 'MinecraftFive';
-  		src: url('fonts/MinecraftFivev2-Regular.woff') format('woff');
+  		src: url('font/MinecraftFivev2-Regular.woff') format('woff');
 }
 @font-face {
   		font-family: 'MinecraftSeven';
-  		src: url('fonts/MinecraftSeven.woff') format('woff');
+  		src: url('font/MinecraftSeven.woff') format('woff');
 }
 @font-face {
   		font-family: 'MinecraftTen';
-  		src: url('fonts/MinecraftTenv2-Regular.woff') format('woff');
+  		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
 }
 @font-face {
 		font-family: 'PublicSans';
-		src: url('fonts/PublicSans-Regular.woff') format('woff');
+		src: url('font/PublicSans-Regular.woff') format('woff');
 		font-style: normal;
 }
 @font-face {
 		font-family: 'PublicSans';
-		src: url('fonts/PublicSans-Italic.woff') format('woff');
+		src: url('font/PublicSans-Italic.woff') format('woff');
 		font-style: italic;
 }
 

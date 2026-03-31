@@ -39,6 +39,8 @@ body {
     background-color: #15202b;
     font-family: 'PublicSans', sans-serif;
 	src: url('font/PublicSans-Regular.woff') format('woff');
+    padding: 0px;
+    padding: 0px;
 }
 
 p {

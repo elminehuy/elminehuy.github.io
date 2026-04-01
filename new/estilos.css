@@ -7,10 +7,6 @@ header {
 	align-items: center;
     align-content: center;
 }
-header span {
-	padding: 0px 11.500px;
-	object-fit: cover;
-}
 
 @font-face {
   		font-family: 'MinecraftFive';

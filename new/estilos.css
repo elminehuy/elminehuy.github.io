@@ -49,10 +49,7 @@ p {
     font-family: 'PublicSans';
     font-weight: 400;
     font-size: 1rem;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin: 16px 6rem;
     line-height: 25px;
 
 }
@@ -63,8 +60,7 @@ h1 {
     letter-spacing: 2px;
     font-weight: 400;
     font-size: 3.5rem;
-    margin-top: 2rem;
-    margin-bottom: 16px;
+    margin: 16px 0px;
 }
 h2 {
     color: #ffffff;
@@ -72,8 +68,7 @@ h2 {
     font-family: 'MinecraftFive';
     font-weight: 400;
     font-size: 2.2rem;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 16px 0px;
 }
 h3 {
     color: #ffffff;
@@ -81,8 +76,31 @@ h3 {
     font-family: 'MinecraftFive';
     font-weight: 400;
     font-size: 1.8rem;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 16px 0px;
+}
+h4 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'MinecraftFive';
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 16px 0px;
+}
+h5 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'MinecraftSeven';
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 16px 0px;
+}
+h6 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'MinecraftSeven';
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 16px 0px;
 }
 
 .link {

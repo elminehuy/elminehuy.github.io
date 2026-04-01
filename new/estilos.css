@@ -113,14 +113,27 @@ h6 {
     margin: 13px 0px;
 }
 
-.link {
+a {
 	color: #1d9bf0;
 	text-decoration: none;
 }
-.link:hover {
+a:hover {
 	color: #4aaff3;
 	text-decoration: underline;
 }
-.link:active {
+a:active {
 	color: #0063be;
+}
+.footerlink {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.footerlink:hover {
+	color: #6bc34d;
+	text-decoration: underline;
+}
+
+.footerlink.footer:active {
+	color: #286519;
 }

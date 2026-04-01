@@ -60,7 +60,7 @@ h1 {
     letter-spacing: 2px;
     font-weight: 400;
     font-size: 3.5rem;
-    margin: 2rem 16px;
+    margin: 2rem auto 16px auto;
 }
 h2 {
     color: #ffffff;

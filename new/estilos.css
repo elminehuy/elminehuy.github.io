@@ -10,6 +10,9 @@ header {
 footer {
     background-color: #0063be;
 }
+.footer {
+    margin: 0px 0px;
+}
 
 @font-face {
   		font-family: 'MinecraftFive';

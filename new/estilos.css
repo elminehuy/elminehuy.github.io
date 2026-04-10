@@ -7,6 +7,13 @@ header {
 	align-items: center;
     align-content: center;
 }
+body {
+    background-color: #031321;
+    font-family: 'PublicSans', sans-serif;
+	src: url('font/PublicSans-Regular.woff') format('woff');
+    margin: 0px;
+    padding: 0px;
+}
 footer {
     background-color: #0063be;
     padding:30px 0px 30px
@@ -42,14 +49,6 @@ footer {
 		font-family: 'PublicSans';
 		src: url('font/PublicSans-Italic.woff') format('woff');
 		font-style: italic;
-}
-
-body {
-    background-color: #031321;
-    font-family: 'PublicSans', sans-serif;
-	src: url('font/PublicSans-Regular.woff') format('woff');
-    margin: 0px;
-    padding: 0px;
 }
 
 p {

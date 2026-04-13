@@ -1,3 +1,26 @@
+@font-face {
+  		font-family: 'MinecraftFive';
+  		src: url('font/MinecraftFivev2-Regular.woff') format('woff');
+}
+@font-face {
+  		font-family: 'MinecraftSeven';
+  		src: url('font/MinecraftSeven.woff') format('woff');
+}
+@font-face {
+  		font-family: 'MinecraftTen';
+  		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
+}
+@font-face {
+		font-family: 'PublicSans';
+		src: url('font/PublicSans-Regular.woff') format('woff');
+		font-style: normal;
+}
+@font-face {
+		font-family: 'PublicSans';
+		src: url('font/PublicSans-Italic.woff') format('woff');
+		font-style: italic;
+}
+
 header {
 	width: 100%;
 	height: 63px;
@@ -26,29 +49,6 @@ footer {
 }
 .p-footer {
     margin: 30px 0px 0px;
-}
-
-@font-face {
-  		font-family: 'MinecraftFive';
-  		src: url('font/MinecraftFivev2-Regular.woff') format('woff');
-}
-@font-face {
-  		font-family: 'MinecraftSeven';
-  		src: url('font/MinecraftSeven.woff') format('woff');
-}
-@font-face {
-  		font-family: 'MinecraftTen';
-  		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
-}
-@font-face {
-		font-family: 'PublicSans';
-		src: url('font/PublicSans-Regular.woff') format('woff');
-		font-style: normal;
-}
-@font-face {
-		font-family: 'PublicSans';
-		src: url('font/PublicSans-Italic.woff') format('woff');
-		font-style: italic;
 }
 
 p {

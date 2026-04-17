@@ -3,4 +3,4 @@
 Made by (twitter) @elminehuy & @zeromrja,
 proudly hosted by  GitHub!
 <br>
-EMinehuy's Website | ©ElMinehuy 2020-2025
+EMinehuy's Website | ©ElMinehuy 2020-2026

@@ -20,6 +20,11 @@
 		src: url('font/PublicSans-Italic.woff') format('woff');
 		font-style: italic;
 }
+@font-face {
+    font-family: 'MonserratAlternates';
+    src: url('font/MontserratAlternates-Regular.woff') format('woff');
+    font-style: normal;
+}
 
 header {
 	width: 100%;
@@ -60,6 +65,15 @@ p {
     margin: 13px 6rem;
     line-height: 25px;
 
+}
+.titulo {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'MonserratAlternates';
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin: 2rem auto 13px auto;  
 }
 h1 {
     color: #ffffff;

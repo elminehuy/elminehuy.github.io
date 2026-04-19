@@ -72,7 +72,7 @@ p {
     font-family: 'MonserratAlternates';
     letter-spacing: 2px;
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin: 2rem auto 13px auto;  
 }
 h1 {
@@ -82,7 +82,7 @@ h1 {
     letter-spacing: 2px;
     font-weight: 400;
     font-size: 3.5rem;
-    margin: 2rem auto 13px auto;
+    margin: 13px auto 13px auto;
 }
 h2 {
     color: #ffffff;

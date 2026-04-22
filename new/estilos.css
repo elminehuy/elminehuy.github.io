@@ -151,10 +151,12 @@ a:active {
 .footerlink:hover {
 	color: #7EF458;
 	text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0)
 }
 
 .footerlink.footer:active {
 	color: #48A429;
+    background-color: rgba(0, 0, 0, 0)
 }
 
 img.emoji {

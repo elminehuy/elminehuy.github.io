@@ -127,15 +127,22 @@ h6 {
 }
 
 a {
-	color: #1d9bf0;
+	color: #7EF458;
 	text-decoration: none;
+    background-color: #06233D;
+    border-radius: 2px;
 }
 a:hover {
-	color: #4aaff3;
+	color: #7EF458;
 	text-decoration: underline;
+    background-color: #0B4374;
+    border-radius: 2px;
 }
 a:active {
-	color: #0063be;
+	color: #1D9BF0;
+    text-decoration: underline;
+    background-color: #ffffff;
+    border-radius: 2px;
 }
 .footerlink {
 	color: #ffffff;

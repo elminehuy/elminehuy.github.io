@@ -11973,28 +11973,28 @@ fieldset {
     font-family: TwitterChirp;
     font-style: normal;
     font-weight: 400;
-    src: url(https://abs.twimg.com/fonts/v2/chirp-regular-web.woff2) format("woff2"),url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-regular-web.woff) format("woff")
+    src: url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-regular-web.woff2) format("woff2"),url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-regular-web.woff) format("woff")
 }
 
 @font-face {
     font-family: TwitterChirp;
     font-style: normal;
     font-weight: 500;
-    src: url(https://abs.twimg.com/fonts/v2/chirp-medium-web.woff2) format("woff2"),url(https://abs.twimg.com/fonts/v2/chirp-medium-web.woff) format("woff")
+    src: url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-medium-web.woff2) format("woff2"),url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-medium-web.woff) format("woff")
 }
 
 @font-face {
     font-family: TwitterChirp;
     font-style: normal;
     font-weight: 700;
-    src: url(https://abs.twimg.com/fonts/v2/chirp-bold-web.woff2) format("woff2"),url(https://abs.twimg.com/fonts/v2/chirp-bold-web.woff) format("woff")
+    src: url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-bold-web.woff2) format("woff2"),url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-bold-web.woff) format("woff")
 }
 
 @font-face {
     font-family: TwitterChirp;
     font-style: normal;
     font-weight: 800;
-    src: url(https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff2) format("woff2"),url(https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff) format("woff")
+    src: url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff2) format("woff2"),url(https://web.archive.org/web/20230613092626im_/https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff) format("woff")
 }
 
 .Icon--arrowRight:before {
@@ -19800,7 +19800,7 @@ sup {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     letter-spacing: -.31em;
-    *letter-spacing: normal;
+    letter-spacing: normal;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -19819,7 +19819,7 @@ sup {
 
 [class*=twtr-col-] {
     zoom:1;display: inline-block;
-    *display: inline;
+    display: inline;
     padding: 12px;
     position: relative;
     vertical-align: top;
@@ -19844,113 +19844,113 @@ sup {
 
 .twtr-col-12 {
     width: 100%;
-    *width: 99.9%
+    width: 99.9%
 }
 
 .twtr-col-11 {
     width: 91.6666666667%;
-    *width: 91.5666666667%
+    width: 91.5666666667%
 }
 
 .twtr-col-10 {
     width: 83.3333333333%;
-    *width: 83.2333333333%
+    width: 83.2333333333%
 }
 
 .twtr-col-9 {
     width: 75%;
-    *width: 74.9%
+    width: 74.9%
 }
 
 .twtr-col-8 {
     width: 66.6666666667%;
-    *width: 66.5666666667%
+    width: 66.5666666667%
 }
 
 .twtr-col-7 {
     width: 58.3333333333%;
-    *width: 58.2333333333%
+    width: 58.2333333333%
 }
 
 .twtr-col-6 {
     width: 50%;
-    *width: 49.9%
+    width: 49.9%
 }
 
 .twtr-col-5 {
     width: 41.6666666667%;
-    *width: 41.5666666667%
+    width: 41.5666666667%
 }
 
 .twtr-col-4 {
     width: 33.3333333333%;
-    *width: 33.2333333333%
+    width: 33.2333333333%
 }
 
 .twtr-col-3 {
     width: 25%;
-    *width: 24.9%
+    width: 24.9%
 }
 
 .twtr-col-2 {
     width: 16.6666666667%;
-    *width: 16.5666666667%
+    width: 16.5666666667%
 }
 
 .twtr-col-1 {
     width: 8.3333333333%;
-    *width: 8.2333333333%
+    width: 8.2333333333%
 }
 
 @media(min-width: 320px) {
     .twtr-col-xs-12 {
         width:100%;
-        *width: 99.9%
+        width: 99.9%
     }
 
     .twtr-col-xs-11 {
         width: 91.6666666667%;
-        *width: 91.5666666667%
+        width: 91.5666666667%
     }
 
     .twtr-col-xs-10 {
         width: 83.3333333333%;
-        *width: 83.2333333333%
+        width: 83.2333333333%
     }
 
     .twtr-col-xs-9 {
         width: 75%;
-        *width: 74.9%
+        width: 74.9%
     }
 
     .twtr-col-xs-8 {
         width: 66.6666666667%;
-        *width: 66.5666666667%
+        width: 66.5666666667%
     }
 
     .twtr-col-xs-7 {
         width: 58.3333333333%;
-        *width: 58.2333333333%
+        width: 58.2333333333%
     }
 
     .twtr-col-xs-6 {
         width: 50%;
-        *width: 49.9%
+        width: 49.9%
     }
 
     .twtr-col-xs-5 {
         width: 41.6666666667%;
-        *width: 41.5666666667%
+        width: 41.5666666667%
     }
 
     .twtr-col-xs-4 {
         width: 33.3333333333%;
-        *width: 33.2333333333%
+        width: 33.2333333333%
     }
 
     .twtr-col-xs-3 {
         width: 25%;
-        *width: 24.9%
+        width: 24.9%
     }
 
     .twtr-col-xs-2 {
@@ -19967,12 +19967,12 @@ sup {
 @media(min-width: 480px) {
     .twtr-col-sm-12 {
         width:100%;
-        *width: 99.9%
+        width: 99.9%
     }
 
     .twtr-col-sm-11 {
         width: 91.6666666667%;
-        *width: 91.5666666667%
+        width: 91.5666666667%
     }
 
     .twtr-col-sm-10 {
@@ -20744,145 +20744,145 @@ sup {
 
 .twtr-offset-11 {
     margin-left: 91.6666666667%;
-    *margin-left: 91.5666666667%
+margin-left: 91.5666666667%
 }
 
 .twtr-offset-10 {
     margin-left: 83.3333333333%;
-    *margin-left: 83.2333333333%
+    margin-left: 83.2333333333%
 }
 
 .twtr-offset-9 {
     margin-left: 75%;
-    *margin-left: 74.9%
+    margin-left: 74.9%
 }
 
 .twtr-offset-8 {
     margin-left: 66.6666666667%;
-    *margin-left: 66.5666666667%
+    margin-left: 66.5666666667%
 }
 
 .twtr-offset-7 {
     margin-left: 58.3333333333%;
-    *margin-left: 58.2333333333%
+    margin-left: 58.2333333333%
 }
 
 .twtr-offset-6 {
     margin-left: 50%;
-    *margin-left: 49.9%
+    margin-left: 49.9%
 }
 
 .twtr-offset-5 {
     margin-left: 41.6666666667%;
-    *margin-left: 41.5666666667%
+    margin-left: 41.5666666667%
 }
 
 .twtr-offset-4 {
     margin-left: 33.3333333333%;
-    *margin-left: 33.2333333333%
+    margin-left: 33.2333333333%
 }
 
 .twtr-offset-3 {
     margin-left: 25%;
-    *margin-left: 24.9%
+    margin-left: 24.9%
 }
 
 .twtr-offset-2 {
     margin-left: 16.6666666667%;
-    *margin-left: 16.5666666667%
+    margin-left: 16.5666666667%
 }
 
 .twtr-offset-1 {
     margin-left: 8.3333333333%;
-    *margin-left: 8.2333333333%
+    margin-left: 8.2333333333%
 }
 
 @media only screen and (min-width: 320px) {
     .twtr-offset-11-xs {
         margin-left:91.6666666667%;
-        *margin-left: 91.5666666667%
+        margin-left: 91.5666666667%
     }
 
     .twtr-offset-10-xs {
         margin-left: 83.3333333333%;
-        *margin-left: 83.2333333333%
+        margin-left: 83.2333333333%
     }
 
     .twtr-offset-9-xs {
         margin-left: 75%;
-        *margin-left: 74.9%
+        margin-left: 74.9%
     }
 
     .twtr-offset-8-xs {
         margin-left: 66.6666666667%;
-        *margin-left: 66.5666666667%
+        margin-left: 66.5666666667%
     }
 
     .twtr-offset-7-xs {
         margin-left: 58.3333333333%;
-        *margin-left: 58.2333333333%
+        margin-left: 58.2333333333%
     }
 
     .twtr-offset-6-xs {
         margin-left: 50%;
-        *margin-left: 49.9%
+        margin-left: 49.9%
     }
 
     .twtr-offset-5-xs {
         margin-left: 41.6666666667%;
-        *margin-left: 41.5666666667%
+        margin-left: 41.5666666667%
     }
 
     .twtr-offset-4-xs {
         margin-left: 33.3333333333%;
-        *margin-left: 33.2333333333%
+        margin-left: 33.2333333333%
     }
 
     .twtr-offset-3-xs {
         margin-left: 25%;
-        *margin-left: 24.9%
+        margin-left: 24.9%
     }
 
     .twtr-offset-2-xs {
         margin-left: 16.6666666667%;
-        *margin-left: 16.5666666667%
+        margin-left: 16.5666666667%
     }
 
     .twtr-offset-1-xs {
         margin-left: 8.3333333333%;
-        *margin-left: 8.2333333333%
+        margin-left: 8.2333333333%
     }
 
     .twtr-offset-0-xs {
         margin-left: 0;
-        *margin-left: -.1%
+        margin-left: -.1%
     }
 }
 
 @media only screen and (min-width: 480px) {
     .twtr-offset-11-sm {
         margin-left:91.6666666667%;
-        *margin-left: 91.5666666667%
+        margin-left: 91.5666666667%
     }
 
     .twtr-offset-10-sm {
         margin-left: 83.3333333333%;
-        *margin-left: 83.2333333333%
+        margin-left: 83.2333333333%
     }
 
     .twtr-offset-9-sm {
         margin-left: 75%;
-        *margin-left: 74.9%
+        margin-left: 74.9%
     }
 
     .twtr-offset-8-sm {
         margin-left: 66.6666666667%;
-        *margin-left: 66.5666666667%
+        margin-left: 66.5666666667%
     }
 
     .twtr-offset-7-sm {
         margin-left: 58.3333333333%;
-        *margin-left: 58.2333333333%
+        margin-left: 58.2333333333%
     }
 
     .twtr-offset-6-sm {

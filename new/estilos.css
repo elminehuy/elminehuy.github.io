@@ -126,6 +126,15 @@ h6 {
     margin: 13px 0px;
 }
 
+::selection {
+    background: #BCD7FD;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #BCD7FD;
+    text-shadow: none;
+}
+
 a {
 	color: #7EF458;
 	text-decoration: none;

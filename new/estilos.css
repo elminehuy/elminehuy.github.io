@@ -1,30 +1,4 @@
-@font-face {
-  		font-family: 'MinecraftFive';
-  		src: url('font/MinecraftFivev2-Regular.woff') format('woff');
-}
-@font-face {
-  		font-family: 'MinecraftSeven';
-  		src: url('font/MinecraftSeven.woff') format('woff');
-}
-@font-face {
-  		font-family: 'MinecraftTen';
-  		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
-}
-@font-face {
-		font-family: 'PublicSans';
-		src: url('font/PublicSans-Regular.woff') format('woff');
-		font-style: normal;
-}
-@font-face {
-		font-family: 'PublicSans';
-		src: url('font/PublicSans-Italic.woff') format('woff');
-		font-style: italic;
-}
-@font-face {
-    font-family: 'MonserratAlternates';
-    src: url('font/MontserratAlternates-Regular.woff') format('woff');
-    font-style: normal;
-}
+/*estilops de aspecto*/
 
 header {
 	width: 100%;
@@ -37,7 +11,7 @@ header {
 }
 body {
     background-color: #031321;
-    font-family: 'PublicSans', sans-serif;
+    font-family: 'PublicSans', Helvetica, Arial, sans-serif;
 	src: url('font/PublicSans-Regular.woff') format('woff');
     margin: 0px;
     padding: 0px;
@@ -59,7 +33,7 @@ footer {
 p {
     color: #ffffff;
     text-align: center;
-    font-family: 'PublicSans';
+    font-family: 'PublicSans', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1rem;
     margin: 13px 6rem;

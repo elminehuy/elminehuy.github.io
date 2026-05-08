@@ -1,0 +1,42 @@
+/*estilops de fuentes*/
+
+@font-face {
+    font-family: 'GoogleSansFlex';
+    src: url('font/MontserratAlternates-Regular.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+  		font-family: 'MinecraftFive';
+  		src: url('font/MinecraftFivev2-Regular.woff') format('woff');
+}
+@font-face {
+  		font-family: 'MinecraftSeven';
+  		src: url('font/MinecraftSeven.woff') format('woff');
+}
+@font-face {
+  		font-family: 'MinecraftTen';
+  		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
+}
+@font-face {
+		font-family: 'PublicSansFlex';
+		src: url('font/PublicSans-Variable.woff') format('woff');
+        src: url('font/PublicSans-Variable.woff2') format('woff2');
+		font-style: normal;
+}
+@font-face {
+		font-family: 'PublicSans';
+		src: url('font/PublicSans-Regular.woff') format('woff');
+        src: url('font/PublicSans-Regular.woff2') format('woff2');
+		font-style: normal;
+}
+@font-face {
+		font-family: 'PublicSans';
+		src: url('font/PublicSans-Italic.woff') format('woff');
+        src: url('font/PublicSans-Italic.woff2') format('woff2');
+		font-style: italic;
+}
+@font-face {
+    font-family: 'MonserratAlternates';
+    src: url('font/MontserratAlternates-Regular.woff') format('woff');
+    font-style: normal;
+}

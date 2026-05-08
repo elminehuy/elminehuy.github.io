@@ -23,7 +23,7 @@ footer {
 .footer {
     margin: 0px 0px;
 }
-.h3footer {
+.h2footer {
     font-size: 18px;
 }
 .p-footer {
@@ -40,6 +40,17 @@ p {
     line-height: 25px;
 
 }
+.p-variable {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'PublicSansVar', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 13px 6rem;
+    line-height: 25px;
+
+}
+
 .titulo {
     color: #ffffff;
     text-align: center;

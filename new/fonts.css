@@ -18,7 +18,7 @@
   		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
 }
 @font-face {
-		font-family: 'PublicSansFlex';
+		font-family: 'PublicSansVar';
 		src: url('font/PublicSans-Variable.woff') format('woff');
         src: url('font/PublicSans-Variable.woff2') format('woff2');
 		font-style: normal;

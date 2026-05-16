@@ -172,7 +172,6 @@ button {
     font-size: 1rem;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     transition-duration: 0.2s;
     cursor: pointer;
@@ -180,3 +179,9 @@ button {
 
 .boton1 {background-color: #1D9BF0;}
 .boton1:hover {background-color: #024E9A;}
+
+todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

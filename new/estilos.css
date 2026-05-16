@@ -165,13 +165,17 @@ img.emoji {
 /*graficos chulos ooohhh*/
 
 button {
-    border-color: #75c8ff;
-    border-width: 8px;
-    background-color: #1D9BF0;
-    width: 64px;
+    border: #75c8ff;
+    border-width: 1rem;
+    color: white;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
-button:hover {
-    border-color: #1D9BF0;
-    background-color: #024E9A;
-    width: 64px;
-}
+
+.boton1 {background-color: #1D9BF0;}
+.boton1:hover {background-color: #024E9A;}

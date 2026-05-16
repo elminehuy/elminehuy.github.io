@@ -165,6 +165,11 @@ img.emoji {
 /*graficos chulos ooohhh*/
 
 .boton1 {
-    border: #1D9BF0;
+    border: #75c8ff;
+    border-width: 8px;
     color: #1D9BF0;
+}
+.boton1:hover {
+    border: #1D9BF0;
+    color: #024E9A;
 }

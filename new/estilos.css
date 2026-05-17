@@ -179,9 +179,3 @@ button {
 
 .boton1 {background-color: #1D9BF0;}
 .boton1:hover {background-color: #024E9A;}
-
-todo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

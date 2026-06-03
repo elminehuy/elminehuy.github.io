@@ -81,7 +81,7 @@ p {
     letter-spacing: 2px;
     font-weight: 600;
     font-size: 4rem;
-    margin: 2rem auto 13px auto;  
+    margin: 2rem auto 10px auto;  
 }
 .titulo-medium {
     color: #ffffff;
@@ -90,7 +90,7 @@ p {
     letter-spacing: 2px;
     font-weight: 400;
     font-size: 4rem;
-    margin: 2rem auto 13px auto;      
+    margin: 10px auto 10px auto;      
 }
 
 h1 {

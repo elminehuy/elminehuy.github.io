@@ -39,16 +39,14 @@
     font-family: 'MonserratAlternates';
     src: url('font/MontserratAlternates-Regular.woff') format('woff');
     font-style: normal;
-	font-weight: 400;
 }
 @font-face {
     font-family: 'MonserratAlternates';
     src: url('font/MontserratAlternates-Medium.woff') format('woff');
-    font-style: normal;
-	font-weight: 500;
+    font-weight: medium;
 }
 @font-face {
     font-family: 'MonserratAlternates';
     src: url('font/MontserratAlternates-SemiBold.woff') format('woff');
-    font-weight: 600;
+    font-weight: bold;
 }

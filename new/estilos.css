@@ -74,6 +74,25 @@ p {
     font-size: 4rem;
     margin: 2rem auto 13px auto;  
 }
+.titulo-bold {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'MonserratAlternates';
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 4rem;
+    margin: 2rem auto 13px auto;  
+}
+.titulo-medium {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'MonserratAlternates';
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 4rem;
+    margin: 2rem auto 13px auto;      
+}
+
 h1 {
     color: #ffffff;
     text-align: center;

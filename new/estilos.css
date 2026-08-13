@@ -43,7 +43,10 @@ footer {
     margin: 30px 0px 0px;
 }
 
-.logocentrado {object-fit: cover; padding: 3rem 35rem;}
+.logocentrado {
+    object-fit: cover; 
+    text-align: center;
+}
 
 p {
     color: #ffffff;

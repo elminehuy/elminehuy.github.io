@@ -46,6 +46,7 @@ footer {
 .logocentrado {
     object-fit: cover; 
     text-align: center;
+    margin: 3rem auto;
 }
 
 p {

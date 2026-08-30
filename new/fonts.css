@@ -1,8 +1,9 @@
 /*estilops de fuentes*/
 
-/*oswald: 200: light, 400: normal, 700: bold*/
+/*oswald: 200: light, 400: normal, 500: medium, 700: bold*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 @font-face {

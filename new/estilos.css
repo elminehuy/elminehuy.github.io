@@ -18,7 +18,7 @@ header span { object-fit: cover; }
 }
 .left img {
   	height: 32px;
-	padding: 0px 20px 0px 30px;
+	padding: 0px 20px 0px 28px;
 	object-fit: cover; /* mantiene la proporción sin deformar */
 }
 

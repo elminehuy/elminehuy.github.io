@@ -49,6 +49,11 @@ footer {
     margin: 3rem auto;
 }
 
+.scroller {
+    --scrollbar-color-track: #0000ff;
+    --scrollbar-color-thumb: #ff69b4;
+}
+
 p {
     color: #ffffff;
     text-align: center;

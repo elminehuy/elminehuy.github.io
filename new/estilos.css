@@ -49,8 +49,8 @@ footer {
     margin: 3rem auto;
 }
 
-.scroller {
-    scrollbar-color: #000077 #bada55;
+* {
+    scrollbar-color: #5995c9 #b8d2ea;
 }
 
 p {

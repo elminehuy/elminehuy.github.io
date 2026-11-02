@@ -50,8 +50,7 @@ footer {
 }
 
 .scroller {
-    --scrollbar-color-track: #0000ff;
-    --scrollbar-color-thumb: #ff69b4;
+    scrollbar-color: #000077 #bada55;
 }
 
 p {

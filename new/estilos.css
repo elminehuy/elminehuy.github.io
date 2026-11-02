@@ -3,7 +3,7 @@
 header {
 	width: 100%;
 	height: 48px;
-	background-color: linear-gradient(to right,#0095FF, #58DEFF);
+	background-image: linear-gradient(to right,#0095FF, #58DEFF);
     display: flex;
 	justify-content: space-between;
 	align-items: center;

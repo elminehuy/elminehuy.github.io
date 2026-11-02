@@ -28,8 +28,11 @@ body {
 	src: url('font/PublicSans-Regular.woff') format('woff');
     margin: 0px;
     padding: 0px;
+}
+* {
     scrollbar-color: #0B4374 #031321;
 }
+
 footer {
     background-color: #28199B;
     padding:30px 0px 30px

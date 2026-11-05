@@ -28,13 +28,13 @@
     font-family: 'SpaceGrotesk';
     src: url('font/SpaceGrotesk-Regular.woff') format('woff');
     src: url('font/SpaceGrotesk-Regular.woff2') format('woff2');
-	font-style: normal;
+	font-weight: normal;
 }
 @font-face {
     font-family: 'SpaceGrotesk';
     src: url('font/SpaceGrotesk-Bold.woff') format('woff');
     src: url('font/SpaceGrotesk-Bold.woff2') format('woff2');
-	font-style: bold;
+	font-weight: bold;
 }
 
 @font-face {

@@ -23,6 +23,20 @@
   		font-family: 'MinecraftTen';
   		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('font/SpaceGrotesk-Regular.woff') format('woff');
+    src: url('font/SpaceGrotesk-Regular.woff2') format('woff2');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('font/SpaceGrotesk-Bold.woff') format('woff');
+    src: url('font/SpaceGrotesk-Bold.woff2') format('woff2');
+	font-style: bold;
+}
+
 @font-face {
 		font-family: 'PublicSansVar';
 		src: url('font/PublicSans-Variable.woff') format('woff');

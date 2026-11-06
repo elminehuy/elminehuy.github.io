@@ -44,13 +44,13 @@
 		font-style: normal;
 }
 @font-face {
-		font-family: 'PublicSans';
+		font-family: 'PublicSans', Arial, Helvetica, sans-serif;
 		src: url('font/PublicSans-Regular.woff') format('woff');
         src: url('font/PublicSans-Regular.woff2') format('woff2');
 		font-style: normal;
 }
 @font-face {
-		font-family: 'PublicSans';
+		font-family: 'PublicSans', Arial, Helvetica, sans-serif;
 		src: url('font/PublicSans-Italic.woff') format('woff');
         src: url('font/PublicSans-Italic.woff2') format('woff2');
 		font-style: italic;

@@ -115,25 +115,25 @@ p {
 h1 {
     color: #ffffff;
     text-align: center;
-    font-family: 'Oswald';
+    font-family: 'SpaceGrotesk';
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 4rem;
     margin: 13px auto 13px auto;
 }
 h2 {
     color: #ffffff;
     text-align: center;
-    font-family: 'MinecraftFive';
-    font-weight: 400;
+    font-family: 'SpaceGrotesk';
+    font-weight: 600;
     font-size: 2.2rem;
     margin: 13px 0px;
 }
 h3 {
     color: #ffffff;
     text-align: center;
-    font-family: 'MinecraftFive';
-    font-weight: 400;
+    font-family: 'SpaceGrotesk';
+    font-weight: 600;
     font-size: 1.8rem;
     margin: 13px 0px;
 }
@@ -143,7 +143,7 @@ h4 {
     font-family: 'SpaceGrotesk';
     font-size: 1.8rem; /* 1.5rem */
     margin: 13px 0px; /* 16px */
-	font-weight: bold;
+	font-weight: 500;
 }
 h5 {
     color: #ffffff;

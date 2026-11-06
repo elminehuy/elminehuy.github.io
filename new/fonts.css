@@ -7,19 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 @font-face {
-  		font-family: 'MinecraftFive';
-  		src: url('font/MinecraftFivev2-Regular.woff') format('woff');
-}
-@font-face {
-  		font-family: 'MinecraftSeven';
-  		src: url('font/MinecraftSeven.woff') format('woff');
-}
-@font-face {
-  		font-family: 'MinecraftTen';
-  		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
-}
-
-@font-face {
     font-family: 'SpaceGrotesk';
     src: url('font/SpaceGrotesk-Regular.woff') format('woff');
     src: url('font/SpaceGrotesk-Regular.woff2') format('woff2');
@@ -65,3 +52,18 @@
     src: url('font/MontserratAlternates-SemiBold.woff') format('woff');
     font-weight: bold;
 }
+
+/*
+@font-face {
+  		font-family: 'MinecraftFive';
+  		src: url('font/MinecraftFivev2-Regular.woff') format('woff');
+}
+@font-face {
+  		font-family: 'MinecraftSeven';
+  		src: url('font/MinecraftSeven.woff') format('woff');
+}
+@font-face {
+  		font-family: 'MinecraftTen';
+  		src: url('font/MinecraftTenv2-Regular.woff') format('woff');
+}
+*/

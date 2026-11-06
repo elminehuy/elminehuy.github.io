@@ -7,11 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 @font-face {
-    font-family: 'GoogleSansFlex';
-    src: url('font/MontserratAlternates-Regular.woff') format('woff');
-    font-style: normal;
-}
-@font-face {
   		font-family: 'MinecraftFive';
   		src: url('font/MinecraftFivev2-Regular.woff') format('woff');
 }

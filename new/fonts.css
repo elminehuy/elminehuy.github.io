@@ -53,6 +53,7 @@
     font-family: 'MonserratAlternates';
     src: url('font/MontserratAlternates-Regular.woff') format('woff');
     font-style: normal;
+    font-weight: normal;
 }
 @font-face {
     font-family: 'MonserratAlternates';

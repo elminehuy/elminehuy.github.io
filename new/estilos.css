@@ -89,7 +89,7 @@ p {
     text-align: center;
     font-family: 'MonserratAlternates';
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 4rem;
     margin: 2rem auto 13px auto;  
 }
@@ -107,7 +107,7 @@ p {
     text-align: center;
     font-family: 'MonserratAlternates';
     letter-spacing: 2px;
-    font-weight: normal;
+    font-weight: medium;
     font-size: 4rem;
     margin: 5px auto 5px auto;      
 }

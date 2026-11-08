@@ -32,6 +32,13 @@ body {
 * {
     scrollbar-color: #0B4374 #031321;
 }
+img {
+	-webkit-user-drag: none;
+    -webkit-user-select: none; /* Chrome, Safari */
+	-moz-user-select: none;    /* Firefox */
+	-ms-user-select: none;     /* IE/Edge */
+	user-select: none;         /* Estándar */
+}
 
 footer {
     background-color: #28199B;

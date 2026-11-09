@@ -141,7 +141,7 @@ h3 {
     color: #ffffff;
     text-align: center;
     font-family: 'SpaceGrotesk';
-    font-weight: 600;
+    font-weight: 500;
     font-size: 3.2rem;
     margin: 13px 0px;
 }
@@ -149,7 +149,7 @@ h4 {
     color: #ffffff;
     text-align: center;
     font-family: 'SpaceGrotesk';
-    font-size: 1.8rem; /* 1.5rem */
+    font-size: 2rem; /* 1.5rem */
     margin: 13px 0px; /* 16px */
 	font-weight: 500;
 }

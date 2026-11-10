@@ -238,3 +238,10 @@ button {
 
 .boton1 {background-color: #1D9BF0;}
 .boton1:hover {background-color: #024E9A;}
+
+#todo-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}

@@ -230,6 +230,5 @@ button {
 #todo-layout {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin: 30px 100px;
 }

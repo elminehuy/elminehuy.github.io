@@ -241,7 +241,6 @@ button {
 
 #todo-layout {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
     align-items: flex-start;
 }

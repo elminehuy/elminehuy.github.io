@@ -99,6 +99,7 @@ p {
     letter-spacing: 2px;
     font-weight: normal;
     font-size: 4rem;
+    margin: 13px 0px
     /*margin: 2rem auto 13px auto;*/  
 }
 .titulo-bold {
@@ -107,6 +108,7 @@ p {
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 4rem;
+    margin: 13px 0px
     /*margin: 2rem auto 5px auto;*/  
 }
 .titulo-medium {
@@ -115,6 +117,7 @@ p {
     letter-spacing: 2px;
     font-weight: medium;
     font-size: 4rem;
+    margin: 13px 0px
     /*margin: 5px auto 5px auto;*/      
 }
 
@@ -124,6 +127,7 @@ h1 {
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 4rem;
+    margin: 13px 0px
     /*margin: 13px auto 13px auto;*/
 }
 h2 {
@@ -234,4 +238,7 @@ button {
     display: flex;
     flex-direction: column;
     margin: 30px 100px;
+    border-width: 10px;
+    border-radius: 3px;
+    border-color: #0B4374;
 }

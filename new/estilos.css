@@ -50,9 +50,11 @@ footer {
 }
 .h2footer {
     font-size: 18px;
+    text-align: center;
 }
 .p-footer {
     margin: 30px 0px 0px;
+    text-align: center;
 }
 
 .logocentrado {

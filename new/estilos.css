@@ -63,7 +63,6 @@ footer {
 
 p {
     color: #ffffff;
-    text-align: center;
     font-family: 'PublicSans', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -73,7 +72,6 @@ p {
 }
 .p-variable {
     color: #ffffff;
-    text-align: center;
     font-family: 'PublicSansVar', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -94,7 +92,6 @@ p {
 */
 .titulo {
     color: #ffffff;
-    text-align: center;
     font-family: 'MonserratAlternates';
     letter-spacing: 2px;
     font-weight: normal;
@@ -103,7 +100,6 @@ p {
 }
 .titulo-bold {
     color: #ffffff;
-    text-align: center;
     font-family: 'MonserratAlternates';
     letter-spacing: 2px;
     font-weight: bold;
@@ -112,7 +108,6 @@ p {
 }
 .titulo-medium {
     color: #ffffff;
-    text-align: center;
     font-family: 'MonserratAlternates';
     letter-spacing: 2px;
     font-weight: medium;
@@ -122,7 +117,6 @@ p {
 
 h1 {
     color: #ffffff;
-    text-align: center;
     font-family: 'SpaceGrotesk';
     letter-spacing: 2px;
     font-weight: bold;
@@ -131,7 +125,6 @@ h1 {
 }
 h2 {
     color: #ffffff;
-    text-align: center;
     font-family: 'SpaceGrotesk';
     font-weight: 600;
     font-size: 3.8rem;
@@ -139,7 +132,6 @@ h2 {
 }
 h3 {
     color: #ffffff;
-    text-align: center;
     font-family: 'SpaceGrotesk';
     font-weight: 500;
     font-size: 3.2rem;
@@ -147,7 +139,6 @@ h3 {
 }
 h4 {
     color: #ffffff;
-    text-align: center;
     font-family: 'SpaceGrotesk';
     font-size: 2rem; /* 1.5rem */
     margin: 13px 0px; /* 16px */
@@ -155,7 +146,6 @@ h4 {
 }
 h5 {
     color: #ffffff;
-    text-align: center;
     font-family: 'SpaceGrotesk';
     font-weight: normal;
     font-size: 1.5rem;
@@ -163,7 +153,6 @@ h5 {
 }
 h6 {
     color: #ffffff;
-    text-align: center;
     font-family: 'SpaceGrotesk';
     font-weight: normal;
     font-size: 1.3rem;
@@ -230,7 +219,6 @@ button {
     font-family: 'PublicSans', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     padding: 15px 32px;
-    text-align: center;
     display: inline-block;
     transition-duration: 0.1s;
     cursor: pointer;

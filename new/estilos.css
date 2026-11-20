@@ -238,8 +238,8 @@ button {
     height: 900px;
     display: flex;
     flex-direction: column;
-    margin: 30px 100px;
+    margin: 30px 60px;
     border-width: 5px;
-    border-style: outset;
+    border-style: solid;
     border-color: #06233D;
 }

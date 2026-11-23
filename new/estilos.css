@@ -271,7 +271,8 @@ button {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    font-weight: 700;
+    font-family: 'SpaceGrotesk';
+    font-weight: 400;
     line-height: 1.15;
     text-decoration: none;
     display: inline-flex;

@@ -217,22 +217,123 @@ img.emoji {
    vertical-align: -0.1em;
 }
 
-/*graficos chulos ooohhh*/
-
+/*graficos chulos ooohhh
 button {
     border: #75c8ff;
     border-width: 1rem;
     color: white;
-    font-family: 'PublicSans', Helvetica, Arial, sans-serif;
+    font-family: 'SpaceGrotesk', PublicSans, Helvetica, Arial, sans-serif;
     font-size: 1rem;
     padding: 15px 32px;
     display: inline-block;
-    transition-duration: 0.1s;
     cursor: pointer;
 }
 
-.boton1 {background-color: #1D9BF0;}
-.boton1:hover {background-color: #024E9A;}
+.boton1 {background-color: #9F57F3;}
+.boton1:hover {background-color: #7A2CD3;}
+.buton1:active {background-color: #5f21a5;}
+*/
+
+/*botones*/
+
+.button:active:not(:disabled) {
+	--button-top: var(--button-dark);
+	--button-bottom: var(--button-light);
+	transition: none;
+}
+
+.button:hover:not(:disabled, .disabled) {
+	color: var(--button-text);
+	filter: brightness(1.1);
+}
+
+.button.big {
+    --bevel: var(--bevel-big);
+    min-height: var(--control-big);
+    padding: 0 var(--control-padding-big);
+    font-size: var(--font-big);
+}
+.button.primary {
+    --button-fill: var(--accent);
+    --button-light: #9be37b;
+    --button-dark: var(--accent-deep);
+    --button-text: var(--accent-text);
+}
+
+.button {
+    background: var(--button-fill);
+    --button-top: var(--button-light);
+    --button-bottom: var(--button-dark);
+    box-shadow: inset 0 calc(var(--bevel) * -1) 0 var(--button-bottom), inset 0 var(--bevel) 0 var(--button-top);
+    cursor: pointer;
+    transition: filter var(--duration), background var(--duration), color var(--duration), box-shadow var(--duration);
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+:root {
+    --lightningcss-light: ;
+    --lightningcss-dark: initial;
+    color-scheme: dark;
+    --bg: #111214;
+    --surface: #18191d;
+    --card: #202227;
+    --card-hover: #272a30;
+    --field: #141518;
+    --line: #2b2e35;
+    --line-strong: #3a3e47;
+    --text: #f1f2f4;
+    --muted: #b0b4bd;
+    --faint: #7c818c;
+    --accent: #6cc04a;
+    --accent-deep: #467f2e;
+    --accent-text: #0d1a07;
+    --accent-soft: #6cc04a24;
+    --accent-hover: #8bd96a;
+    --danger: #ff8f85;
+    --danger-soft: #2c1513;
+    --danger-line: #5e2a25;
+    --danger-text: #1d0a08;
+    --danger-fill: #c9372c;
+    --gold: #f2c14e;
+    --warn: #f2c14e;
+    --warn-soft: #2b2311;
+    --warn-line: #5c4a1f;
+    --knob: #fff;
+    --tile-overlay: #000a;
+    --tile-overlay-hover: #000d;
+    --swatch-line: #fff3;
+    --checker: #1a1b1f conic-gradient(#25272c 25%, transparent 0 50%, #25272c 0 75%, transparent 0) 0 0 / 16px 16px;
+    --shadow: 0 8px 24px #0009;
+    --drag-shadow: 0 8px 20px #0000008c;
+    --knob-shadow: 0 1px 3px #0008;
+    --mono: ui-monospace, monospace;
+    --font-ui: "Gabarito", system-ui, "Segoe UI", sans-serif;
+    --font-head: "Chakra Petch", system-ui, "Segoe UI", sans-serif;
+    --font-xxs: 10px;
+    --font-xs: 11px;
+    --font-sm: 12px;
+    --font-md: 13px;
+    --font-base: 14px;
+    --font-lg: 15px;
+    --font-xl: 18px;
+    --font-big: 20px;
+    --duration: .15s;
+    --control: 36px;
+    --control-tiny: 28px;
+    --control-big: 56px;
+    --control-padding: 14px;
+    --control-padding-big: 30px;
+    --bevel: 2px;
+    --bevel-big: 4px;
+}
+
+/*boton arriba*/
 
 #todo-layout {
     height: 900px;

@@ -240,11 +240,11 @@ button {
 	--button-top: var(--button-dark);
 	--button-bottom: var(--button-light);
 	transition: none;
-    color: #ffffff;
 }
 
 .button:hover:not(:disabled, .disabled) {
-	color: var(--button-text);
+	/*color: var(--button-text);*/
+    color: #ffffff;
 	filter: brightness(1.1);
 }
 

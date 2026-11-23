@@ -240,6 +240,7 @@ button {
 	--button-top: var(--button-dark);
 	--button-bottom: var(--button-light);
 	transition: none;
+    color: #ffffff;
 }
 
 .button:hover:not(:disabled, .disabled) {
@@ -274,6 +275,7 @@ button {
     line-height: 1.15;
     text-decoration: none;
     display: inline-flex;
+    border: none;
 }
 
 :root {

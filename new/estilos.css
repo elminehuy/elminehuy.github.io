@@ -41,8 +41,17 @@ img {
 }
 
 footer {
-    /* #28199B */
-    background-color: #7A2CD3;
+    /* #28199B 
+    background-color: #7A2CD3; */
+    background: #0B4374;
+    background: -webkit-linear-gradient(0deg,rgba(11, 67, 116, 1) 0%, rgba(0, 149, 255, 1) 100%);
+    background: -moz-linear-gradient(0deg,rgba(11, 67, 116, 1) 0%, rgba(0, 149, 255, 1) 100%);
+    background: linear-gradient(0deg,rgba(11, 67, 116, 1) 0%, rgba(0, 149, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr="#0B4374",
+        endColorstr="#0095FF",
+        GradientType=0
+    );
     padding:30px 0px 30px
 }
 .footer {
@@ -200,13 +209,13 @@ a:active {
 }
 
 .footerlink:hover {
-	color: #7EF458;
+	color: #A058F4;/*#7EF458*/
 	text-decoration: underline;
     background-color: rgba(0, 0, 0, 0)
 }
 
 .footerlink.footer:active {
-	color: #48A429;
+	color: #7EF458; /*#48A429*/
     background-color: rgba(0, 0, 0, 0)
 }
 

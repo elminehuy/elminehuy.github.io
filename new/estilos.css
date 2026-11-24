@@ -356,3 +356,16 @@ button {
     border-style: solid;
     border-color: #06233D;
 }
+
+.sec1 {
+    background-color: rosybrown;
+}
+.sec2 {
+    background-color: rgb(99, 53, 53);
+}
+.sec3 {
+    background-color: rosybrown;
+}
+.sec4 {
+    background-color: rgb(99, 53, 53);
+}

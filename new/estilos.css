@@ -70,7 +70,14 @@ footer {
 .logocentrado {
     object-fit: cover; 
     text-align: center;
-    margin: 3rem auto;
+    /*margin: 3rem auto;*/
+}
+.imglogo {
+    object-fit:contain; 
+    width:430px;
+    padding: 3rem 0px;
+    max-width: 100%;
+    height: auto;
 }
 
 p {

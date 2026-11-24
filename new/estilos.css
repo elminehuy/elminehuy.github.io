@@ -351,7 +351,7 @@ button {
     height: 900px;
     display: flex;
     flex-direction: column;
-    margin: 30px 60px;
+    /*margin: 30px 60px;*/
     border-width: 5px;
     border-style: solid;
     border-color: #06233D;
@@ -368,4 +368,8 @@ button {
 }
 .sec4 {
     background-color: rgb(99, 53, 53);
+}
+.seccion {
+    width: min(1120px, 100% - 16 * 2);
+    margin-inline: auto;
 }

@@ -85,8 +85,8 @@ p {
     font-family: 'PublicSans', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    margin: 13px 6rem;
-    line-height: 25px;
+    /*margin: 13px 6rem;*/
+    /*line-height: 25px;*/
 
 }
 .p-variable {
@@ -94,7 +94,7 @@ p {
     font-family: 'PublicSansVar', Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    margin: 13px 6rem;
+    /*margin: 13px 6rem;*/
     line-height: 25px;
 
 }
@@ -140,10 +140,10 @@ p {
 h1 {
     color: #ffffff;
     font-family: 'SpaceGrotesk';
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     font-weight: bold;
     font-size: 4rem;
-    margin: 13px 0px
+    /*margin: 13px 0px*/
     /*margin: 13px auto 13px auto;*/
 }
 h2 {
@@ -151,20 +151,21 @@ h2 {
     font-family: 'SpaceGrotesk';
     font-weight: 600;
     font-size: 3.8rem;
-    margin: 13px 0px;
+    /*margin: 13px 0px;*/
 }
 h3 {
     color: #ffffff;
     font-family: 'SpaceGrotesk';
     font-weight: 500;
     font-size: 3.2rem;
-    margin: 13px 0px;
+    /*margin: 13px 0px;*/
 }
 h4 {
     color: #ffffff;
     font-family: 'SpaceGrotesk';
     font-size: 2rem; /* 1.5rem */
-    margin: 13px 0px; /* 16px */
+    /* margin: 13px 0px; */
+    /* 16px */
 	font-weight: 500;
 }
 h5 {
@@ -172,23 +173,24 @@ h5 {
     font-family: 'SpaceGrotesk';
     font-weight: normal;
     font-size: 1.5rem;
-    margin: 13px 0px;
+    /*margin: 13px 0px;*/
 }
 h6 {
     color: #ffffff;
     font-family: 'SpaceGrotesk';
     font-weight: normal;
     font-size: 1.3rem;
-    margin: 13px 0px;
+    /*margin: 13px 0px;*/
 }
 
 ::selection {
-    background: #4BB6F6 ;
+    /*background: #4BB6F6 ;*/
+    background: #7A2CD3;
     color: #ffffff;
     text-shadow: none;
 }
 ::-moz-selection {
-    background: #4BB6F6;
+    background: #7A2CD3;
     color: #ffffff;
     text-shadow: none;
 }
@@ -366,16 +368,10 @@ button {
 }
 
 .sec1 {
-    background-color: rosybrown;
+    background-color: crimson;
 }
 .sec2 {
-    background-color: rgb(99, 53, 53);
-}
-.sec3 {
-    background-color: rosybrown;
-}
-.sec4 {
-    background-color: rgb(99, 53, 53);
+    background-color: darkmagenta;
 }
 .seccion {
     width: min(1120px, 100% - 16px * 2);

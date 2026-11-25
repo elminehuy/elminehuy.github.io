@@ -43,7 +43,8 @@ img {
 footer {
     /* #28199B 
     background-color: #7A2CD3; */
-    background: #0B4374;
+
+    /*background: #0B4374;
     background: -webkit-linear-gradient(0deg,rgba(11, 67, 116, 1) 0%, rgba(0, 149, 255, 1) 100%);
     background: -moz-linear-gradient(0deg,rgba(11, 67, 116, 1) 0%, rgba(0, 149, 255, 1) 100%);
     background: linear-gradient(0deg,rgba(11, 67, 116, 1) 0%, rgba(0, 149, 255, 1) 100%);
@@ -51,7 +52,13 @@ footer {
         startColorstr="#0B4374",
         endColorstr="#0095FF",
         GradientType=0
-    );
+    );*/
+
+    background: #0095ff;
+    background: -webkit-linear-gradient(0deg, rgba(88, 222, 255, 1) 0%, #0095ff 100%);
+    background: -moz-linear-gradient(0deg, rgba(88, 222, 255, 1) 0%, rgba(0, 149, 255, 1) 100%);
+    background: linear-gradient(0deg, rgba(88, 222, 255, 1) 0%, rgba(0, 149, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#58DEFF", endColorstr="#0095FF", GradientType=0);
     padding:30px 0px 30px
 }
 .footer {

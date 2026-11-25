@@ -355,9 +355,10 @@ button {
 /*boton arriba*/
 
 #todo-layout {
-    height: 900px;
+    /*height: 900px;*/
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    margin: 0px 0px 60px 0px;
     /*margin: 30px 60px;*/
     border-width: 5px;
     border-style: solid;

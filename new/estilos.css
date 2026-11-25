@@ -377,6 +377,6 @@ button {
     background-color: rgb(99, 53, 53);
 }
 .seccion {
-    width: min(1120px, 100% - 16 * 2);
+    width: min(1120px, 100% - 16px * 2);
     margin-inline: auto;
 }

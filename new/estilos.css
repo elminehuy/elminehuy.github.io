@@ -225,14 +225,17 @@ a:active {
 }
 
 .footerlink:hover {
-	color: #A058F4;/*#7EF458*/
-	text-decoration: underline;
-    background-color: rgba(0, 0, 0, 0)
+	color: #7A2CD3;/*#7EF458*/
+	text-decoration: none;
+    /*background-color: rgba(0, 0, 0, 0)*/
+    background-color: #0b437481;
 }
 
 .footerlink:active {
 	color: #7EF458; /*#48A429*/
-    background-color: rgba(0, 0, 0, 0)
+    text-decoration: none;
+    /*background-color: rgba(0, 0, 0, 0)*/
+    background-color: #105fa480;
 }
 
 img.emoji {
